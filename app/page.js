@@ -24,7 +24,7 @@ export default function Home() {
       />
       <div className="text-9xl text-white font-bold">Robo Nurse</div>
       <div className="flex flex-col text-4xl text-white gap-4">
-        {["forward", "backward", "left", "right"].map((dir, index) => {
+        {["forward", "backward", "left", "right", "rest"].map((dir, index) => {
           return (
             <button
               onClick={() => setDir(dir)}
